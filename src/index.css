@@ -1,13 +1,70 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+*{
+    margin: 0;
+    border: none;
+    box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* nav a.active{
+    text-decoration: none;
+    color: red;
+} */
+
+nav a{
+    margin-right: 20px;
+}
+
+button{
+    margin-top: 150px;
+    background-color: orangered;
+    border-radius: 20px;
+    padding: 5px;
+    height: 50px;
+    width: 160px;
+    font-size: 18px;
+    cursor: pointer;
+    color: cyan;
+}
+
+button:hover{
+    width: 170px;
+    height: 60px;
+    font-size: 20px;
+}
+
+input{
+    width: 280px;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 100px;
+    margin-top: 30px;
+}
+
+.list{
+    display: flex;
+    list-style: none;
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 70px;
+    justify-content: center;
+}
+
+.list_child a{
+    margin-right: 60px;
+    margin-left: 30px;
+    cursor: pointer;
+    text-decoration: underline;
+    color: black;
+}
+
+.list_child:hover{
+    font-size: 22px;
+}
+
+h3{
+    font-weight: 200;
+}
+
+h2{
+    margin-top: 70px;
 }
